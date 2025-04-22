@@ -1,0 +1,22 @@
+asset:
+  asset_id: "RWA-000234"
+  asset_type: "Real Estate"
+  jurisdiction: "UAE"
+  legal_owner:
+    name: "Future Capital Holding"
+    id_type: "corporate_entity"
+    kyc_verified: true
+  tokenization:
+    token_type: "ERC-20"
+    total_supply: 1000000
+    decimals: 2
+    transfer_restrictions: true
+  valuation:
+    source: "independent_audit"
+    last_valuation_date: "2024-12-01"
+  access_rules:
+    eligible_entities:
+      - type: "regulated_investor"
+      - type: "institutional_lp"
+    restricted_zones:
+      - "OFAC-sanctioned"
